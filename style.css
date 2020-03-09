@@ -54,6 +54,11 @@ p {
     font-size: 1.75em;
 }
 
+.main-header a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
 .clearfix {
     
 }
@@ -77,7 +82,7 @@ p {
     display: block;
 }
 .main-nav a:hover {
-    color: #317ab5;
+    color: #317ab5 !important;
 }
 .main-nav a:active {
     color: azure;
