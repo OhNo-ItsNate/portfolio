@@ -7,16 +7,16 @@ body {
     font-family: sans-serif;
 }
 h1 {
-    font-size: 2.25em;
+    
 }
 h2 {
-    margin: 1em 0 0;
+    
 }
 h3 {
-    font-size: 1.75em;
+    
 }
 p {
-    margin: .25em 0 0;
+    
 }
 
 /*Containing Elements--------------------*/
@@ -26,18 +26,19 @@ p {
     background-color: #7e191b;
     color: antiquewhite;
     text-align: center;
-    padding: 10% 0 5%;
+    padding: 7% 0 1.5%;
 }
 .main-nav {
     
 }
+
 .wrapper {
     
 }
 .main-footer {
     width: 100%;
     background-color: silver;
-    padding: 50px 0;
+    padding: 10px 0;
     text-align: center;
 }
 .container {
@@ -47,7 +48,15 @@ p {
 
 /*Header---------------------------------*/
 .main-header h1 {
-    
+    font-size: 2.5em;
+}
+.main-header h3 {
+    font-size: 1.75em;
+}
+
+.main-header a {
+    color: antiquewhite;
+    text-decoration: none;
 }
 
 .clearfix {
@@ -59,9 +68,10 @@ p {
     list-style-type: none;
 }
 .main-nav li {
-    font-size: 1.25em;
-    margin: 1em 0;
-    padding: .35em;
+    font-size: 1.5em;
+    font-weight: 520;
+    margin: 1% 0;
+    padding: 0.75em;
 }
 .main-nav li:hover {
     background-color: #a45a52;
@@ -72,13 +82,18 @@ p {
     display: block;
 }
 .main-nav a:hover {
-    color: #317ab5;
+    color: #317ab5 !important;
 }
 .main-nav a:active {
     color: azure;
 }
 .main-nav a:visited {
     color: antiquewhite;
+}
+
+/*Footer-------------------------------*/
+.main-footer p {
+    font-size: .75em;
 }
 
 /*Media queries--------------------------*/
