@@ -55,8 +55,8 @@ p {
 }
 
 .main-header a {
-    color: antiquewhite;
-    text-decoration: none;
+    color: antiquewhite !important;
+    text-decoration: none !important;
 }
 
 .clearfix {
