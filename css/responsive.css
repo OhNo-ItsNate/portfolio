@@ -1,3 +1,9 @@
+@media screen and (min-width: 450px) {
+    .navMenuIcon {
+        width: 5%;
+    }
+}
+
 @media screen and (min-width: 880px) {
 /*TWO COLUMN LAYOUT FOR CONTACT PAGE*/
     #primary {
@@ -25,21 +31,21 @@
     }
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 785px) {
     
     #logo {
         float: left;
         margin: 5%;
         text-align: left;
-        width: 45%;
+        width: 35%;
     }
     
     h1 {
-       font-size: 2.25em; 
+       font-size: 2em; 
     }
     
     h2{
-        font-size: 1.5em;
+        font-size: 1.35em;
         margin-bottom: 20px;
     }
     
@@ -48,12 +54,51 @@
         float: right;
         font-size: 1.125em;
         text-align: right;
-        width: 45%;
+        width: 55%;
         margin: 20px 0 0;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0 10px;
+        padding: 0;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav a {
+        padding: 15px 10px 5px;
+    }
+    
+    nav {
+    padding: 10px 0;
+}
+    
+    .navMenuIcon {
+        display: none;
+    }
+    
+    .navMenu {
+        width: auto;
+        position: initial;
+        left: 0;
+        padding: 0 10px;
+        display: inline-block;
+        background-color: maroon;
+    }
+    nav:hover .navMenu {
+        display: inline-block;
+    }
+    
+    nav li {
+        display: inline-block;
     }
     
     header {
         border-bottom: 5px solid firebrick;
         margin-bottom: 60px;
+    }
+    .selected {
+        border-bottom: 2px solid antiquewhite;
     }
 }

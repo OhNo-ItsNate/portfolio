@@ -39,16 +39,30 @@ header {
 
 /*NAVIGATION*/
 nav {
-    text-align: center;
     padding: 10px 0;
+}
+.navMenuIcon {
+    width: 10%;
+    margin-left: 10px;
+    position: relative;
+}
+.navMenu {
+    width: 50%;
+    position: fixed;
+    left: 0;
+    padding: 0 10px;
+    display: none;
+}
+nav:hover .navMenu {
+    display: initial;
 }
 nav ul {
     list-style-type: none;
-    margin: 0 10px;
-    padding: 0;
+    margin: 0;
+    padding: 0; 
 }
 nav li {
-    display: inline-block;
+    display: block;
 }
 nav a {
     padding: 15px 10px 5px;
@@ -120,6 +134,15 @@ footer {
     background-image: url("/img/twitter.png");
 }
 
+/*RESUME PAGE*/
+#resume ul:not(#skills ul, #resume ul ul) {
+    list-style-type: none;
+    padding-left: 0;
+}
+#resume ul li {
+    margin-bottom: 10px;
+}
+
 /*COLORS*/
 body {
     background-color: #fff;
@@ -131,6 +154,9 @@ header {
 
 /*NAV MOBILE*/
 nav {
+    background-color: firebrick;
+}
+.navMenu {
     background-color: firebrick;
 }
 
@@ -148,10 +174,6 @@ a {
 nav a, nav a:visited {
     color: antiquewhite;
 }
-nav a:hover {
-    color: antiquewhite !important;
-}
 .selected {
-    color: antiquewhite !important;
-    border-bottom: solid 5px antiquewhite;
+    text-decoration: underline;
 }
