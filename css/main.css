@@ -12,15 +12,23 @@ a {
     text-decoration: none;
 }
 h1 {
-    font-size: 1.5em;
+    font-size: 2.2em;
     font-weight: 700;
 }
 h2 {
-    font-size: 1.1em;
+    font-size: 1.53em;
     margin: -5 0 0;
 }
 h3 {
+    font-size: 1.4rem;
     margin: 0 0 1em 0;
+}
+h4 {
+    font-size: 1.15rem;
+    margin-bottom: 0.75rem;
+}
+ul {
+    margin-top: 0;
 }
 img {
     width: 100%;
