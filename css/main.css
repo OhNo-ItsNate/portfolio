@@ -115,6 +115,10 @@ footer {
     font-size: 0.75em;
 }
 
+#gallery li p:nth-child(odd) {
+    padding-top: 0px !important;
+}
+
 /*ABOUT PAGE*/
 .profile-pic {
     margin: 0 auto 30px;
