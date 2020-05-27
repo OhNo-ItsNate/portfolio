@@ -78,8 +78,13 @@ nav {
     z-index: 9;
     display: none;
 }
-nav:hover .navMenu {
+nav:hover .navMenu, nav:focus .navMenu, nav:active .navMenu, nav a:hover .navMenu, nav a:focus .navMenu, nav:active .navMenu, nav a:active .navMenu {
     display: initial;
+}
+@media (any-pointer: coarse) {
+    nav:hover .navMenu, nav:focus .navMenu, nav:active .navMenu,  nav a:hover .navMenu, nav a:focus .navMenu, nav:active .navMenu, nav a:active .navMenu {
+        display: initial;
+    }
 }
 nav ul {
     list-style-type: none;
