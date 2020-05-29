@@ -1,4 +1,16 @@
 //SHOW NAV MENU ON CLICK OF NAVMENUICON
-$('.navMenuIcon').on('click', function() {
-    $(this).next().show();
+$('.navMenu').on('click', function() {
+    $('.hide').show();
+});
+
+//$('main').on('click', function() {
+//    $('.hide').hide();
+//});
+
+//$('.navMenu').off('click', function() {
+//    $('.hide').show();
+//});
+
+$('main').on('click', function() {
+    $('.hide').hide();
 });
