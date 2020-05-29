@@ -1,3 +1,4 @@
+/*PHONES IN PORTRAIT*/
 @media screen and (min-width: 300px) and (min-height: 600px) and (orientation: portrait) {
     /*--------------CONTACT PAGE----------------*/
     #contact {
@@ -5,14 +6,16 @@
     }
 }
 
+/*TABLETS*/
 @media screen and (min-width: 450px) {
     /*-----------------GENERAL------------------*/
-    .navMenuIcon {
+    .navMenu {
         width: 5%;
     }
-    .navMenu {
-    width: 30%;
-    padding: 5vh 10px 0;
+    
+    .hide {
+    width: 30vw;
+    padding: 2.5vh 10% 0 50%;
     }
 }
 
@@ -101,13 +104,25 @@
     nav {
     padding: 10px 0;
 }
-    
+    .navMenu {
+        width: auto;
+        margin: 0;
+        background-color: maroon;
+    }
     .navMenuIcon {
         display: none;
     }
-    
-    .navMenu {
+    .hide {
         width: auto;
+        display: initial;
+        background-color: maroon;
+        display: inline-block;
+        padding: 0 10px;
+        right: 0;
+    }
+/*
+    .hide {
+        width: 50vw;
         position: initial;
         left: 0;
         padding: 0 10px;
@@ -117,6 +132,7 @@
     nav:hover .navMenu {
         display: inline-block;
     }
+*/
     
     nav li {
         display: inline-block;
