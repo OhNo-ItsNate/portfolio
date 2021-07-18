@@ -1,85 +1,81 @@
 /*PHONES IN PORTRAIT*/
+
 @media screen and (min-width: 300px) and (min-height: 600px) and (orientation: portrait) {
     /*--------------CONTACT PAGE----------------*/
     #contact {
         height: calc(100vh - 115px);
     }
+    nav .selected {
+        text-decoration: overline underline;
+    }
 }
 
+
 /*TABLETS*/
+
 @media screen and (min-width: 450px) {
     /*-----------------GENERAL------------------*/
     .navMenu {
         width: 5%;
     }
-    
     .hide {
-    width: 30vw;
-    padding: 2.5vh 10% 0 50%;
+        width: 30vw;
+        padding: 2.5vh 10% 0 50%;
     }
 }
 
 @media screen and (min-height: 1000px) and (min-width: 800px) {
-    #about, #portfolio {
+    #about,
+    #portfolio {
         height: calc(100vh - 115px)
     }
 }
 
 @media screen and (min-width: 880px) {
-/*--------------------GENERAL-------------------*/
+    /*--------------------GENERAL-------------------*/
     /*CONTACT MAIN*/
     #contact {
         height: calc(100vh - 125px);
     }
-    
-/*-----------------CONTACT PAGE-----------------*/
-
+    /*-----------------CONTACT PAGE-----------------*/
     /*TWO COLUMN LAYOUT*/
     #primary {
         width: 50%;
         float: left;
     }
-    
     #secondary {
         width: 40%;
         float: right;
     }
-/*---------------PORTFOLIO PAGE----------------*/
+    /*---------------PORTFOLIO PAGE----------------*/
     #gallery li {
         width: 28.33333333%;
     }
-    
     #gallery li:nth-child(4n) {
         clear: left;
     }
-/*-----------------ABOUT PAGE------------------*/
-    
+    /*-----------------ABOUT PAGE------------------*/
     .profile-pic {
         float: left;
-        margin : 0 5% 20px 0; 
+        margin: 0 5% 20px 0;
     }
 }
 
 @media screen and (min-width: 785px) {
-    
     /*-----------------GENERAL------------------*/
-    
     #logo {
         float: left;
         margin: 5%;
         text-align: left;
         width: 35%;
     }
-    
     h1 {
-       font-size: 2em; 
+        font-size: 2em;
     }
-    
-    h2{
+    h2 {
         font-size: 1.35em;
         margin-bottom: 20px;
     }
-    
     nav {
         background: none;
         float: right;
@@ -87,7 +83,6 @@
         width: 55%;
         margin: 20px 0 0;
     }
-    
     nav ul {
         list-style-type: none;
         margin: 0 10px;
@@ -100,10 +95,9 @@
         padding: 15px 10px 5px;
         font-size: 1.125rem;
     }
-    
     nav {
-    padding: 10px 0;
-}
+        padding: 10px 0;
+    }
     .navMenu {
         width: auto;
         margin: 0;
@@ -120,7 +114,7 @@
         padding: 0 10px;
         right: 0;
     }
-/*
+    /*
     .hide {
         width: 50vw;
         position: initial;
@@ -133,11 +127,9 @@
         display: inline-block;
     }
 */
-    
     nav li {
         display: inline-block;
     }
-    
     header {
         border-bottom: 5px solid firebrick;
         margin-bottom: 60px;
